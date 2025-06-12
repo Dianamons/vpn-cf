@@ -1,30 +1,30 @@
-name = "kaisar"
+name = "baru"
 main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
 workers_dev = true
 
 routes = [
-  { pattern = "vip.kopralstore.my.id", custom_domain = true },
-  { pattern = "ava.game.naver.com.vip.kopralstore.my.id", custom_domain = true },
-  { pattern = "df.game.naver.com.vip.kopralstore.my.id", custom_domain = true },
-  { pattern = "graph.instagram.com.vip.kopralstore.my.id", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.vip.kopralstore.my.id", custom_domain = true },
-  { pattern = "support.zoom.us.vip.kopralstore.my.id", custom_domain = true },
-  { pattern = "cache.netflix.com.vip.kopralstore.my.id", custom_domain = true },
+  { pattern = "sunda.pasarbanjar.web.id", custom_domain = true },
+  { pattern = "ava.game.naver.com.sunda.pasarbanjar.web.id", custom_domain = true },
+  { pattern = "df.game.naver.com.sunda.pasarbanjar.web.id", custom_domain = true },
+  { pattern = "graph.instagram.com.sunda.pasarbanjar.web.id", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.sunda.pasarbanjar.web.id", custom_domain = true },
+  { pattern = "support.zoom.us.sunda.pasarbanjar.web.id", custom_domain = true },
+  { pattern = "cache.netflix.com.sunda.pasarbanjar.web.id", custom_domain = true },
 
-  { pattern = "free.kopralstore.my.id", custom_domain = true },
-  { pattern = "ava.game.naver.com.free.kopralstore.my.id", custom_domain = true },
-  { pattern = "df.game.naver.com.free.kopralstore.my.id", custom_domain = true },
-  { pattern = "graph.instagram.com.free.kopralstore.my.id", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.free.kopralstore.my.id", custom_domain = true },
-  { pattern = "support.zoom.us.free.kopralstore.my.id", custom_domain = true },
-  { pattern = "cache.netflix.com.free.kopralstore.my.id", custom_domain = true }
+  { pattern = "pro.pasarbanjar.web.id", custom_domain = true },
+  { pattern = "ava.game.naver.com.pro.pasarbanjar.web.id", custom_domain = true },
+  { pattern = "df.game.naver.com.pro.pasarbanjar.web.id", custom_domain = true },
+  { pattern = "graph.instagram.com.pro.pasarbanjar.web.id", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.pro.pasarbanjar.web.id", custom_domain = true },
+  { pattern = "support.zoom.us.pro.pasarbanjar.web.id", custom_domain = true },
+  { pattern = "cache.netflix.com.pro.pasarbanjar.web.id", custom_domain = true }
 ]
 
 [[kv_namespaces]]
 binding = "SIREN"
-id = "c598b08770654155ac40773492c1f0d5"
+id = "9cf6e245587040798b755d1310842b61"
 
 [build]
 command = "cargo install -q worker-build && worker-build --release"
@@ -34,6 +34,6 @@ build = { command = "cargo install -q worker-build && worker-build --dev" }
 
 [vars]
 UUID = "f282b878-8711-45a1-8c69-5564172123c1"
-MAIN_PAGE_URL = "https://raw.githubusercontent.com/KopralProject/vpn-cf/refs/heads/master/web/index.html"
-SUB_PAGE_URL  = "https://raw.githubusercontent.com/KopralProject/vpn-cf/refs/heads/master/web/sub.html"
-LINK_PAGE_URL = "https://raw.githubusercontent.com/KopralProject/vpn-cf/refs/heads/master/web/link.html"
+MAIN_PAGE_URL = "https://raw.githubusercontent.com/Dianamons/vpn-cf/refs/heads/master/web/index.html"
+SUB_PAGE_URL  = "https://raw.githubusercontent.com/Dianamons/vpn-cf/refs/heads/master/web/sub.html"
+LINK_PAGE_URL = "https://raw.githubusercontent.com/Dianamons/vpn-cf/refs/heads/master/web/link.html"
